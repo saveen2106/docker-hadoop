@@ -1,5 +1,4 @@
-FROM bde2020/hadoop-base:1.1.0-hadoop2.7.1-java8
-MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
+FROM bde2020/hadoop-namenode:2.0.0-hadoop2.7.4-java8
 
 HEALTHCHECK CMD curl -f http://localhost:50070/ || exit 1
 
